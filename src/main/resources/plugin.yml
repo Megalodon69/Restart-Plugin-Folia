@@ -1,0 +1,19 @@
+name: RestartPluginFolia
+version: '${project.version}'
+main: com.megalodon.restartplugin.RestartPlugin
+api-version: '1.20'
+folia-supported: true
+author: Megalodon69
+description: A Minecraft Folia server plugin that restarts the server with customizable countdown
+
+commands:
+  restart:
+    description: Restarts the server with a countdown
+    usage: /<command> [seconds]
+    permission: restartplugin.restart
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  restartplugin.restart:
+    description: Allows player to restart the server
+    default: op

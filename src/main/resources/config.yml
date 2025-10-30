@@ -1,0 +1,30 @@
+# Restart Plugin Configuration
+
+# Default countdown time in seconds before server restart
+default-countdown: 10
+
+# Messages (Use {time} placeholder for countdown time)
+messages:
+  restart-initiated: "&c[Restart] &eServer will restart in &c{time} &eseconds!"
+  countdown-warning: "&c[Restart] &eRestarting in &c{time} &eseconds..."
+  restart-now: "&c[Restart] &eServer is restarting now!"
+  restart-cancelled: "&a[Restart] &eServer restart has been cancelled."
+  no-permission: "&c[Restart] &eYou don't have permission to use this command!"
+  invalid-time: "&c[Restart] &eInvalid time specified. Please use a number between 0 and 300."
+
+# Countdown intervals (when to show warnings during countdown)
+# Values in seconds before restart
+countdown-intervals:
+  - 60
+  - 30
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+
+# Minimum and maximum countdown time allowed
+min-countdown: 0
+max-countdown: 300
