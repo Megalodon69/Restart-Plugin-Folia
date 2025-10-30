@@ -9,7 +9,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitTask;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class RestartCommand implements CommandExecutor {
 
